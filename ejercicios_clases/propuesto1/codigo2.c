@@ -1,5 +1,5 @@
 /*
-    Ejemplo Vistó en Clase
+    Ejemplo Visto en Clase
     Control 1, 2023-02 
 */
 

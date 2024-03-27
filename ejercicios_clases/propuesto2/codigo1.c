@@ -1,5 +1,5 @@
 /*
-    Ejemplo Vistó en Clase
+    Ejemplo Visto en Clase
     Control 1, 2023-02 
 */
 
@@ -14,8 +14,8 @@ int main(){
     pid_t a = getpid();
     pid_t b = fork();
 
-    printf("It's a me, ");
     if( b > 0 ){
+        printf("It's a me, ");
         sleep(10);
         printf(" dean");
     }
