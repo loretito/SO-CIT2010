@@ -11,7 +11,7 @@ int asientos_generales = 0;
 pthread_mutex_t mutex_VIP = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t mutex_general = PTHREAD_MUTEX_INITIALIZER;
 
-void* comprar_galeria(void* arg) {
+void* comprar_VIP(void* arg) {
     pthread_mutex_lock(&mutex_VIP);
     for (int i = 0; i < M_BOLETO_VIP; i++) {
         if (asientos_VIP[i] == 0) {
@@ -23,7 +23,7 @@ void* comprar_galeria(void* arg) {
     pthread_mutex_unlock(&mutex_VIP);
 }
 
-void* comprar_cancha(void* arg) {
+void* comprar_general(void* arg) {
     pthread_mutex_lock(&mutex_general);
     if (asientos_generales < N_BOLETOS_GENERALES) {
         asientos_generales++;

@@ -51,7 +51,7 @@ void* comprar_galeria(void* arg) {
     }
 }
 
-void* comprar_cancha(void* arg) {
+void* comprar_general(void* arg) {
     pthread_mutex_lock(&mutex_general);
     if (asientos_generales < N_BOLETOS_GENERALES) {
         asientos_generales++;
