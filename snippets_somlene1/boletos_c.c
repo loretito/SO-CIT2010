@@ -30,7 +30,7 @@ void reiniciar_ventas() {
     pthread_mutex_unlock(&mutex_general);
 }
 
-void* comprar_galeria(void* arg) {
+void* comprar_VIP(void* arg) {
     pthread_mutex_lock(&mutex_VIP);
     int encontrado = 0;
     for (int i = 0; i < M_BOLETO_VIP; i++) {
