@@ -4,7 +4,7 @@
 
     Para compilar: gcc history.c -o history -lncurses
 
-    !IMPORTANTE!: Quizas necesites instalar ncurses
+    IMPORTANTE!: Quizás necesites instalar ncurses
 
 */
 
