@@ -1,7 +1,8 @@
 /*
     Ejemplo 3 de Threads en C utilizando mutex
 
-    Compilar: gcc threads_e3.c -o name -lpthread (n° de ciclos)
+    Compilar: gcc threads_e3.c -o name -lpthread 
+    Ejecutar: ./name <n_ciclos>
     ! -> lpthread asegura que el programa utilice la libreria de threads correctamente
 */
 

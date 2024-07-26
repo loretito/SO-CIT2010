@@ -1,7 +1,7 @@
 /*
     Ejemplo 3 de Threads en C++
-    Compilar: g++ threads_cpp_e3.cpp -o name (n° de ciclos)
-
+    Compilar: g++ threads_cpp_e3.cpp -o name
+    Ejecutar: ./name <n_ciclos>
 */
 
 
