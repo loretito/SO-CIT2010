@@ -1,3 +1,7 @@
+/*
+    Ejemplo 1 de Mutex en C 
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
