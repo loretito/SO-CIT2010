@@ -13,14 +13,13 @@ int main() {
     
     pid_t me = getpid();
 
-    for(int i = 0; i < 4; i++) {
-        pid_t pid = fork();
-        if(pid == me) {
-            printf("Gato\n");
-        }
+    pid_t pid = fork();
+
+    if(pid == me) {
+        printf("Gato\n");
     }
 
-    for (int i = 0; i < 4; i++){
+    for (int i = 0; i < 2; i++){
         pid_t pid = fork();
 
         if(getpid() == me){
