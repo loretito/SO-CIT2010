@@ -11,8 +11,8 @@
 
 int main() {
     pid_t pid;
+    printf("Ingrese un número: \n");
     pid = fork();
-    printf("Ingrese un número: ");
 
     int N;
     scanf("%d", &N);
