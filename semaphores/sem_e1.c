@@ -28,7 +28,7 @@ void* buy_ticket(void* arg) {
 }
 
 int main() {
-    sem_init(&sem_tickets, 0, NUM_TICKETS);
+    sem_init(&sem_tickets, 0, 1);
 
     pthread_t threads[NUM_THREADS];
     int id_threads[NUM_THREADS];
