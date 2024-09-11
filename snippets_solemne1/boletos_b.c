@@ -28,7 +28,7 @@ void* comprar_general(void* arg) {
     if (asientos_generales < N_BOLETOS_GENERALES) {
         asientos_generales++;
         int asiento = asientos_generales;
-        printf("Lugar asignado a cliente, asiento general %d\n", asiento);
+        printf("Asiento general comprado %d\n");
     }
     pthread_mutex_unlock(&mutex_general);
 }
